@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/Users/shanliu/final/MiniGameFramework/src/mini_game/MiniGameDataModel.java</file>
+            <file>file:/Users/shanliu/final/MiniGameFramework/src/mini_game/MiniGameEventRelayer.java</file>
+            <file>file:/Users/shanliu/final/MiniGameFramework/src/mini_game/Sprite.java</file>
+            <file>file:/Users/shanliu/final/MiniGameFramework/src/mini_game/MiniGame.java</file>
+            <file>file:/Users/shanliu/final/MiniGameFramework/src/mini_game/SpriteType.java</file>
+            <file>file:/Users/shanliu/final/MiniGameFramework/src/mini_game/MiniGameState.java</file>
+            <file>file:/Users/shanliu/final/MiniGameFramework/src/mini_game/MiniGameTimerTask.java</file>
+        </group>
+        <group name="servelet">
+            <file>file:/Users/shanliu/final/MiniGameFramework/src/mini_game/MiniGameEventRelayer.java</file>
+            <file>file:/Users/shanliu/final/MiniGameFramework/src/mini_game/MiniGameState.java</file>
+            <file>file:/Users/shanliu/final/MiniGameFramework/src/mini_game/MiniGameTimerTask.java</file>
+            <file>file:/Users/shanliu/final/MiniGameFramework/src/mini_game/Sprite.java</file>
+            <file>file:/Users/shanliu/final/MiniGameFramework/src/mini_game/SpriteType.java</file>
+            <file>file:/Users/shanliu/final/MiniGameFramework/src/mini_game/MiniGame.java</file>
+            <file>file:/Users/shanliu/final/MiniGameFramework/src/mini_game/MiniGameDataModel.java</file>
+        </group>
+    </open-files>
+</project-private>

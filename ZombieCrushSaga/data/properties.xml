@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    The properties in this file are specific to the zomjong flavor of the game.
+-->
+<properties>
+    <property_list>    
+       
+        <property name="GAME_TITLE_TEXT"            value="Zombie Crush Saga"></property>
+         <property name="GAME_FLAVOR_FILE_NAME"      value="./zomcrush/zomcrush_properties.xml"></property>
+        <property name="WINDOW_WIDTH"               value="1280"></property>
+        <property name="WINDOW_HEIGHT"              value="720"></property>
+        <property name="GAME_WIDTH"                 value="1280"></property>
+        <property name="GAME_HEIGHT"                value="700"></property>
+        <property name="GAME_LEFT_OFFSET"           value="20"></property>
+        <property name="GAME_TOP_OFFSET"            value="100"></property>
+        <property name="AUDIO_PATH"                 value="./audio/"></property>
+        <property name="IMG_PATH"                   value="./img/"></property>
+        <property name="FPS"                        value="30"></property>
+        <property name="RECORD_FILE_NAME"           value="PlayerRecord.txt"></property>
+        <property name="RECORD_FILE_NAMEb"           value="PlayerRecordb.dat"></property>
+
+    </property_list>
+    
+</properties>

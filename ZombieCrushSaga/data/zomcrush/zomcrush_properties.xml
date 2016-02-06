@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<properties>
+    <property_list>    
+        <property name="GAME_TITLE_TEXT"            value="Zombie Crush Saga"></property>
+        <property name="WINDOW_ICON"                value="./zomcrush/TileZombieTarget.png"></property>
+        
+        <!-- BIG, FULL VIEWPORT BACKGROUND SCREEN IMAGES -->
+        <property name="SPLASH_SCREEN_IMAGE_NAME"   value="./zomcrush/UIZomcrushSplashBackground.png"></property>
+        <property name="GAME_BACKGROUND_IMAGE_NAME" value="./zomcrush/UIZomcrushInGameBackground.png"></property>
+        <property name="SAGA_SCREEN_IMAGE_NAME" value="./zomcrush/UIZomcrushSagaBackground.png"></property>
+        <property name="RECORD_SCREEN_IMAGE_NAME" value="./zomcrush/UIZomcrushLevelBackground.png"></property>
+        
+        <!-- GAME SCREEN NORTH TOOLBAR UI IMAGES -->
+        <property name="PLAY_GAME_BUTTON_IMAGE_NAME"              value="./zomcrush/UIZomcrushPlayGame.png"></property>
+        <property name="PLAY_GAME_BUTTON_MOUSE_OVER_IMAGE_NAME"   value="./zomcrush/UIZomcrushPlayGameMouseOver.png"></property>
+        <property name="RESET_BUTTON_IMAGE_NAME"              value="./zomcrush/UIZomcrushReset.png"></property>
+        <property name="RESET_BUTTON_MOUSE_OVER_IMAGE_NAME"   value="./zomcrush/UIZomcrushResetMouseOver.png"></property>
+        <property name="QUIT_BUTTON_IMAGE_NAME"              value="./zomcrush/UIZomcrushQuit.png"></property>
+        <property name="QUIT_BUTTON_MOUSE_OVER_IMAGE_NAME"   value="./zomcrush/UIZomcrushQuitMouseOver.png"></property>
+        
+        <!-- IN SAGA SCREEN-->
+        <property name="SCROLLUP_BUTTON_IMAGE_NAME"   value="./zomcrush/UIZomcrushScrollUp.png"></property>
+        <property name="SCROLLUP_BUTTON_MOUSE_OVER_IMAGE_NAME"   value="./zomcrush/UIZomcrushScrollUpMouseOver.png"></property>
+        <property name="SCROLLDOWN_BUTTON_IMAGE_NAME"   value="./zomcrush/UIZomcrushScrollDown.png"></property>
+        <property name="SCROLLDOWN_BUTTON_MOUSE_OVER_IMAGE_NAME"   value="./zomcrush/UIZomcrushScrollDownMouseOver.png"></property>
+        <property name="EXTI_BUTTON_IMAGE_NAME"   value="./zomcrush/UIZomcrushExitSaga.png"></property>
+        <property name="EXTI_BUTTON_IMAGE_NAME_MOUSE_OVER"   value="./zomcrush/UIZomcrushExitSagaMouseOver.png"></property>
+        <!--IN LEVELSCORE SCREEN-->
+        
+        <property name="PLAY_ZOMCRUSH_IMAGE_NAME"   value="./zomcrush/UIZomcrushPlaySaga.png"></property>
+        <property name="PLAY_ZOMCRUSH_IMAGE_NAME_MOUSE_OVER"   value="./zomcrush/UIZomcrushPlaySagaMouseOver.png"></property>
+        <property name="BACK_LEVELSCORE_BUTTON_IMAGE_NAME"   value="./zomcrush/UIZomcrushBackSaga.png"></property>
+        <property name="BACK_LEVELSCORE_BUTTON_IMAGE_NAME_MOUSE_OVER"   value="./zomcrush/UIZomcrushBackSagaMouseOver.png"></property>
+        <property name="EXIT_LEVEL_BUTTON_IMAGE_NAME"   value="./zomcrush/UIZomcrushExitLevel.png"></property>
+        <property name="EXIT_lEVEL_BUTTON_IMAGE_NAME_MOUSE_OVER"   value="./zomcrush/UIZomcrushExitLevelMouseOver.png"></property>
+        
+        <!-- IN GAMESCREEN-->
+        <property name="BACK_GAME_BUTTON_IMAGE_NAME"   value="./zomcrush/UIZomcrushBackGame.png"></property>
+        <property name="BACK_GAME_BUTTON_IMAGE_NAME_MOUSE_OVER"   value="./zomcrush/UIZomcrushBackGameMouseOver.png"></property>
+        <property name="SMASH_BUTTON_IMAGE_NAME"   value="./zomcrush/smash.png"></property>
+        <property name="SMASH_BUTTON_IMAGE_NAME_MOUSE_OVER"   value="./zomcrush/smashm.png"></property>
+      
+       
+        <!-- DIALOG IMAGES -->
+        <property name="WIN_DIALOG_IMAGE_NAME"             value="./zomcrush/UIZomjongWinDialog.png"></property>
+        <property name="LOSS_DIALOG_IMAGE_NAME"             value="./zomcrush/UIZomjongLossDialog.png"></property>
+       <property name="TRY_AGAIN_IMAGE_NAME"             value="./zomcrush/UIZomjongTryAgain.png"></property>       
+        
+       <property name="STATS_STAR0_IMAGE_NAME"           value="./zomcrush/0star.png"></property>
+        <property name="STATS_STAR1_IMAGE_NAME"           value="./zomcrush/1star.png"></property>
+        <property name="STATS_STAR2_IMAGE_NAME"           value="./zomcrush/2star.png"></property>
+        <property name="STATS_STAR3_IMAGE_NAME"           value="./zomcrush/3star.png"></property>
+        <property name="METER_IMAGE_NAME"    value="./zomcrush/Meter.png"></property>
+        <property name="STAR_IMAGE_NAME"    value="./zomcrush/star.png"></property>
+      
+     
+        <!-- BASE TILE RENDERING IMAGES -->
+        <property name="BLANK_TILE_IMAGE_NAME"              value="./zomjong/UIZomjongBlankTile.png"></property>
+        <property name="BLANK_TILE_SELECTED_IMAGE_NAME"     value="./zomjong/UIZomjongBlankTileSelected.png"></property>
+        
+        
+    </property_list>
+    <property_options_list>
+        <property_options name="LEVEL_OPTIONS">
+            <option>./zomcrush/LEVEL1.zom</option>
+            <option>./zomcrush/Coliseum.zom</option>
+            <option>./zomcrush/TriPeak.zom</option>
+            <option>./zomcrush/Turtle.zom</option>
+            <option>./zomcrush/Quilt.zom</option> 
+        </property_options>
+        <property_options name="LEVEL_IMAGE_OPTIONS">
+            <option>./zomcrush/levels/LEVEL1.png</option>
+            <option>./zomcrush/levels/LEVEL2.png</option>
+            <option>./zomcrush/levels/LEVEL3.png</option>
+            <option>./zomcrush/levels/LEVEL4.png</option>
+            <option>./zomcrush/levels/LEVEL5.png</option>
+            <option>./zomcrush/levels/LEVEL6.png</option>
+            <option>./zomcrush/levels/LEVEL7.png</option>
+            <option>./zomcrush/levels/LEVEL8.png</option>
+            <option>./zomcrush/levels/LEVEL9.png</option>
+            <option>./zomcrush/levels/LEVEL10.png</option>
+            <option>./zomcrush/levels/LEVEL11.png</option>
+            <option>./zomcrush/levels/LEVEL12.png</option>
+            <option>./zomcrush/levels/LEVEL13.png</option>
+            <option>./zomcrush/levels/LEVEL14.png</option>
+            <option>./zomcrush/levels/LEVEL15.png</option>
+            <option>./zomcrush/levels/LEVEL16.png</option>
+            <option>./zomcrush/levels/LEVEL17.png</option>
+            <option>./zomcrush/levels/LEVEL18.png</option>
+            <option>./zomcrush/levels/LEVEL19.png</option>
+            <option>./zomcrush/levels/LEVEL20.png</option>
+            <option>./zomcrush/levels/LEVEL21.png</option>
+            <option>./zomcrush/levels/LEVEL22.png</option>
+            <option>./zomcrush/levels/LEVEL23.png</option>
+            <option>./zomcrush/levels/LEVEL24.png</option>
+            <option>./zomcrush/levels/25.png</option>       
+            <option>./zomcrush/levels/26.png</option>
+            <option>./zomcrush/levels/27.png</option>
+            <option>./zomcrush/levels/28.png</option>
+            <option>./zomcrush/levels/29.png</option>
+            <option>./zomcrush/levels/30.png</option>
+            <option>./zomcrush/levels/31.png</option>
+            <option>./zomcrush/levels/32.png</option>
+            <option>./zomcrush/levels/33.png</option>
+            <option>./zomcrush/levels/34.png</option>
+            <option>./zomcrush/levels/35.png</option>
+            <option>./zomcrush/levels/36.png</option>
+            <option>./zomcrush/levels/37.png</option>
+            <option>./zomcrush/levels/38.png</option>
+            <option>./zomcrush/levels/39.png</option>
+            <option>./zomcrush/levels/40.png</option>
+            <option>./zomcrush/levels/41.png</option>
+            <option>./zomcrush/levels/42.png</option>
+            <option>./zomcrush/levels/43.png</option>
+            <option>./zomcrush/levels/44.png</option>
+            <option>./zomcrush/levels/45.png</option>
+            <option>./zomcrush/levels/46.png</option>
+            <option>./zomcrush/levels/47.png</option>
+            <option>./zomcrush/levels/48.png</option>
+            <option>./zomcrush/levels/49.png</option>
+            <option>./zomcrush/levels/50.png</option>
+            <option>./zomcrush/levels/51.png</option>
+            <option>./zomcrush/levels/52.png</option>
+            <option>./zomcrush/levels/53.png</option>
+            <option>./zomcrush/levels/54.png</option>
+            <option>./zomcrush/levels/55.png</option>
+            <option>./zomcrush/levels/56.png</option>
+            <option>./zomcrush/levels/57.png</option>
+            <option>./zomcrush/levels/58.png</option>
+            <option>./zomcrush/levels/59.png</option>
+            <option>./zomcrush/levels/60.png</option>
+            <option>./zomcrush/levels/61.png</option>
+            <option>./zomcrush/levels/62.png</option>
+            <option>./zomcrush/levels/63.png</option>
+            <option>./zomcrush/levels/64.png</option>
+            <option>./zomcrush/levels/65.png</option>
+            <option>./zomcrush/levels/66.png</option>
+            <option>./zomcrush/levels/67.png</option>
+            <option>./zomcrush/levels/68.png</option>
+            <option>./zomcrush/levels/69.png</option>
+            <option>./zomcrush/levels/70.png</option>
+            <option>./zomcrush/levels/71.png</option>
+            <option>./zomcrush/levels/72.png</option>
+            <option>./zomcrush/levels/73.png</option>
+            <option>./zomcrush/levels/74.png</option>
+            <option>./zomcrush/levels/75.png</option>
+            <option>./zomcrush/levels/76.png</option>
+            <option>./zomcrush/levels/77.png</option>
+            <option>./zomcrush/levels/78.png</option>
+            <option>./zomcrush/levels/79.png</option>
+            <option>./zomcrush/levels/80.png</option>
+            <option>./zomcrush/levels/81.png</option>
+            <option>./zomcrush/levels/82.png</option>
+            <option>./zomcrush/levels/83.png</option>
+            <option>./zomcrush/levels/84.png</option>
+            <option>./zomcrush/levels/85.png</option>
+            <option>./zomcrush/levels/86.png</option>
+            <option>./zomcrush/levels/87.png</option>
+            <option>./zomcrush/levels/88.png</option>
+            <option>./zomcrush/levels/89.png</option>
+            <option>./zomcrush/levels/90.png</option>
+            <option>./zomcrush/levels/91.png</option>
+            <option>./zomcrush/levels/92.png</option>
+            <option>./zomcrush/levels/93.png</option>
+            <option>./zomcrush/levels/94.png</option>
+            <option>./zomcrush/levels/95.png</option>
+            <option>./zomcrush/levels/96.png</option>
+            <option>./zomcrush/levels/97.png</option>
+            <option>./zomcrush/levels/98.png</option>
+            <option>./zomcrush/levels/99.png</option>
+        </property_options>
+        <property_options name="LEVEL_MOUSE_OVER_IMAGE_OPTIONS">
+            <option>./zomcrush/levels/LEVEL1M.png</option>
+            <option>./zomcrush/levels/LEVEL2M.png</option>
+            <option>./zomcrush/levels/LEVEL3M.png</option>
+            <option>./zomcrush/levels/LEVEL4M.png</option>
+            <option>./zomcrush/levels/LEVEL5M.png</option>
+            <option>./zomcrush/levels/LEVEL6M.png</option>
+            <option>./zomcrush/levels/LEVEL7M.png</option>
+            <option>./zomcrush/levels/LEVEL8M.png</option>
+            <option>./zomcrush/levels/LEVEL9M.png</option>
+            <option>./zomcrush/levels/LEVEL10M.png</option>
+            <option>./zomcrush/levels/LEVEL11.png</option>
+            <option>./zomcrush/levels/LEVEL12.png</option>
+            <option>./zomcrush/levels/LEVEL13.png</option>
+            <option>./zomcrush/levels/LEVEL14.png</option>
+            <option>./zomcrush/levels/LEVEL15.png</option>
+            <option>./zomcrush/levels/LEVEL16.png</option>
+            <option>./zomcrush/levels/LEVEL17.png</option>
+            <option>./zomcrush/levels/LEVEL18.png</option>
+            <option>./zomcrush/levels/LEVEL19.png</option>
+            <option>./zomcrush/levels/LEVEL20.png</option>
+            <option>./zomcrush/levels/LEVEL21.png</option>
+            <option>./zomcrush/levels/LEVEL22.png</option>
+            <option>./zomcrush/levels/LEVEL23.png</option>
+            <option>./zomcrush/levels/LEVEL24.png</option>
+            <option>./zomcrush/levels/25.png</option>    
+            <option>./zomcrush/levels/26.png</option>
+            <option>./zomcrush/levels/27.png</option>
+            <option>./zomcrush/levels/28.png</option>
+            <option>./zomcrush/levels/29.png</option>
+            <option>./zomcrush/levels/30.png</option>
+            <option>./zomcrush/levels/31.png</option>
+            <option>./zomcrush/levels/32.png</option>
+            <option>./zomcrush/levels/33.png</option>
+            <option>./zomcrush/levels/34.png</option>
+            <option>./zomcrush/levels/35.png</option>
+            <option>./zomcrush/levels/36.png</option>
+            <option>./zomcrush/levels/37.png</option>
+            <option>./zomcrush/levels/38.png</option>
+            <option>./zomcrush/levels/39.png</option>
+            <option>./zomcrush/levels/40.png</option>
+            <option>./zomcrush/levels/41.png</option>
+            <option>./zomcrush/levels/42.png</option>
+            <option>./zomcrush/levels/43.png</option>
+            <option>./zomcrush/levels/44.png</option>
+            <option>./zomcrush/levels/45.png</option>
+            <option>./zomcrush/levels/46.png</option>
+            <option>./zomcrush/levels/47.png</option>
+            <option>./zomcrush/levels/48.png</option>
+            <option>./zomcrush/levels/49.png</option>
+            <option>./zomcrush/levels/50.png</option>
+            <option>./zomcrush/levels/51.png</option>
+            <option>./zomcrush/levels/52.png</option>
+            <option>./zomcrush/levels/53.png</option>
+            <option>./zomcrush/levels/54.png</option>
+            <option>./zomcrush/levels/55.png</option>
+            <option>./zomcrush/levels/56.png</option>
+            <option>./zomcrush/levels/57.png</option>
+            <option>./zomcrush/levels/58.png</option>
+            <option>./zomcrush/levels/59.png</option>
+            <option>./zomcrush/levels/60.png</option>
+            <option>./zomcrush/levels/61.png</option>
+            <option>./zomcrush/levels/62.png</option>
+            <option>./zomcrush/levels/63.png</option>
+            <option>./zomcrush/levels/64.png</option>
+            <option>./zomcrush/levels/65.png</option>
+            <option>./zomcrush/levels/66.png</option>
+            <option>./zomcrush/levels/67.png</option>
+            <option>./zomcrush/levels/68.png</option>
+            <option>./zomcrush/levels/69.png</option>
+            <option>./zomcrush/levels/70.png</option>
+            <option>./zomcrush/levels/71.png</option>
+            <option>./zomcrush/levels/72.png</option>
+            <option>./zomcrush/levels/73.png</option>
+            <option>./zomcrush/levels/74.png</option>
+            <option>./zomcrush/levels/75.png</option>
+            <option>./zomcrush/levels/76.png</option>
+            <option>./zomcrush/levels/77.png</option>
+            <option>./zomcrush/levels/78.png</option>
+            <option>./zomcrush/levels/79.png</option>
+            <option>./zomcrush/levels/80.png</option>
+            <option>./zomcrush/levels/81.png</option>
+            <option>./zomcrush/levels/82.png</option>
+            <option>./zomcrush/levels/83.png</option>
+            <option>./zomcrush/levels/84.png</option>
+            <option>./zomcrush/levels/85.png</option>
+            <option>./zomcrush/levels/86.png</option>
+            <option>./zomcrush/levels/87.png</option>
+            <option>./zomcrush/levels/88.png</option>
+            <option>./zomcrush/levels/89.png</option>
+            <option>./zomcrush/levels/90.png</option>
+            <option>./zomcrush/levels/91.png</option>
+            <option>./zomcrush/levels/92.png</option>
+            <option>./zomcrush/levels/93.png</option>
+            <option>./zomcrush/levels/94.png</option>
+            <option>./zomcrush/levels/95.png</option>
+            <option>./zomcrush/levels/96.png</option>
+            <option>./zomcrush/levels/97.png</option>
+            <option>./zomcrush/levels/98.png</option>
+            <option>./zomcrush/levels/99.png</option>
+        </property_options>
+        
+        <property_options name="LEVEL_LOCKED_IMAGE_OPTIONS">
+            <option>./zomcrush/lock.png</option>
+            <option>./zomcrush/lock.png</option>
+            <option>./zomcrush/lock.png</option>
+            <option>./zomcrush/lock.png</option>
+            <option>./zomcrush/lock.png</option>
+            <option>./zomcrush/lock.png</option>
+            <option>./zomcrush/lock.png</option>
+            <option>./zomcrush/lock.png</option>
+            <option>./zomcrush/lock.png</option>
+            <option>./zomcrush/lock.png</option>
+            <option>./zomcrush/lock.png</option>
+            <option>./zomcrush/lock.png</option>
+            <option>./zomcrush/lock.png</option>
+            <option>./zomcrush/lock.png</option>
+            <option>./zomcrush/lock.png</option>
+            <option>./zomcrush/lock.png</option>
+            <option>./zomcrush/lock.png</option>
+            <option>./zomcrush/lock.png</option>
+            <option>./zomcrush/lock.png</option>
+            <option>./zomcrush/lock.png</option>
+            <option>./zomcrush/lock.png</option>
+            <option>./zomcrush/lock.png</option>
+            <option>./zomcrush/lock.png</option>
+            <option>./zomcrush/lock.png</option>
+            <option>./zomcrush/lock.png</option>
+            <option>./zomcrush/lock.png</option>
+            <option>./zomcrush/lock.png</option>
+            <option>./zomcrush/lock.png</option>
+            <option>./zomcrush/lock.png</option>
+            <option>./zomcrush/lock.png</option>
+            <option>./zomcrush/lock.png</option>
+            <option>./zomcrush/lock.png</option>
+            <option>./zomcrush/lock.png</option>
+            <option>./zomcrush/lock.png</option>
+            <option>./zomcrush/lock.png</option>
+            <option>./zomcrush/lock.png</option>
+            <option>./zomcrush/lock.png</option>
+            <option>./zomcrush/lock.png</option>
+            <option>./zomcrush/lock.png</option>
+            <option>./zomcrush/lock.png</option>
+            <option>./zomcrush/lock.png</option>
+            <option>./zomcrush/lock.png</option>
+            <option>./zomcrush/lock.png</option>
+            <option>./zomcrush/lock.png</option>
+            <option>./zomcrush/lock.png</option>
+            <option>./zomcrush/lock.png</option>
+            <option>./zomcrush/lock.png</option>
+            <option>./zomcrush/lock.png</option>
+            <option>./zomcrush/lock.png</option>
+            <option>./zomcrush/lock.png</option>
+            <option>./zomcrush/lock.png</option>
+            <option>./zomcrush/lock.png</option>
+            <option>./zomcrush/lock.png</option>
+            <option>./zomcrush/lock.png</option>
+            <option>./zomcrush/lock.png</option>
+            <option>./zomcrush/lock.png</option>
+            <option>./zomcrush/lock.png</option>
+            <option>./zomcrush/lock.png</option>
+            <option>./zomcrush/lock.png</option>
+            <option>./zomcrush/lock.png</option>
+            <option>./zomcrush/lock.png</option>
+            <option>./zomcrush/lock.png</option>
+            <option>./zomcrush/lock.png</option>
+            <option>./zomcrush/lock.png</option>
+            <option>./zomcrush/lock.png</option>
+            <option>./zomcrush/lock.png</option>
+            <option>./zomcrush/lock.png</option>
+            <option>./zomcrush/lock.png</option>
+            <option>./zomcrush/lock.png</option>
+            <option>./zomcrush/lock.png</option>
+            <option>./zomcrush/lock.png</option>
+            <option>./zomcrush/lock.png</option>
+            <option>./zomcrush/lock.png</option>
+            <option>./zomcrush/lock.png</option>
+            <option>./zomcrush/lock.png</option>
+            <option>./zomcrush/lock.png</option>
+            <option>./zomcrush/lock.png</option>
+            <option>./zomcrush/lock.png</option>
+            <option>./zomcrush/lock.png</option>
+            <option>./zomcrush/lock.png</option>
+            <option>./zomcrush/lock.png</option>
+            <option>./zomcrush/lock.png</option>
+            <option>./zomcrush/lock.png</option>
+            <option>./zomcrush/lock.png</option>
+            <option>./zomcrush/lock.png</option>
+            <option>./zomcrush/lock.png</option>
+            <option>./zomcrush/lock.png</option>
+            <option>./zomcrush/lock.png</option>
+            <option>./zomcrush/lock.png</option>
+            <option>./zomcrush/lock.png</option>
+            <option>./zomcrush/lock.png</option>
+            <option>./zomcrush/lock.png</option>
+            <option>./zomcrush/lock.png</option>
+            <option>./zomcrush/lock.png</option>
+            <option>./zomcrush/lock.png</option>
+            <option>./zomcrush/lock.png</option>
+            <option>./zomcrush/lock.png</option>
+            <option>./zomcrush/lock.png</option>
+            <option>./zomcrush/lock.png</option>
+            
+        </property_options>
+        
+        <!-- THERE WILL ONLY BE ONE OF EACH OF THESE
+        AND THEY CAN BE MATCHED WITH EACH OTHER -->
+        <property_options name="TYPE_C_TILES">
+            <option>./zomcrush/1z.png</option>
+            <option>./zomcrush/2z.png</option>
+            <option>./zomcrush/3z.png</option>
+            <option>./zomcrush/4z.png</option>
+            <option>./zomcrush/5z.png</option>
+            <option>./zomcrush/6z.png</option>
+			
+        </property_options>
+        <property_options name="S4H_TYPE_TILEa">
+            <option>./zomcrush/TileDayPlantChomper.png</option>
+            <option>./zomcrush/TileZombieScreenDoor.png</option>
+            <option>./zomcrush/TileZombieImp.png</option>
+            <option>./zomcrush/TileZombieBobsledTeam.png</option>
+            <option>./zomcrush/TileZombieConehead.png</option>
+            <option>./zomcrush/TileZombieDancing.png</option>
+			
+        </property_options>
+        <property_options name="S4V_TYPE_TILEa">
+            <option>./zomcrush/TileDayPlantChomper.png</option>
+            <option>./zomcrush/TileZombieScreenDoor.png</option>
+            <option>./zomcrush/TileZombieImp.png</option>
+            <option>./zomcrush/TileZombieBobsledTeam.png</option>
+            <option>./zomcrush/TileZombieConehead.png</option>
+            <option>./zomcrush/TileZombieDancing.png</option>
+			
+        </property_options>
+        <!-- THERE WILL ONLY BE ONE OF EACH OF THESE
+        AND THEY CAN BE MATCHED WITH EACH OTHER -->
+        <property_options name="S4H_TYPE_TILE">
+            <option>./zomcrush/1zs.png</option>
+            <option>./zomcrush/2zs.png</option>
+            <option>./zomcrush/3zs.png</option>
+            <option>./zomcrush/4zs.png</option>
+            <option>./zomcrush/5zs.png</option>
+            <option>./zomcrush/6zs.png</option>
+			
+        </property_options>
+        
+        
+       
+        <property_options name="S4V_TYPE_TILE">
+            <option>./zomcrush/1zs.png</option>
+            <option>./zomcrush/2zs.png</option>
+            <option>./zomcrush/3zs.png</option>
+            <option>./zomcrush/4zs.png</option>
+            <option>./zomcrush/5zs.png</option>
+            <option>./zomcrush/6zs.png</option>
+			
+        </property_options>
+        
+        <property_options name="S5_TYPE_TILE">
+            <option>./zomcrush/T.png</option>
+        </property_options>
+        
+        <property_options name="T_TYPE_TILE">
+            <option>./zomcrush/L.png</option>
+        </property_options>
+        
+        
+        <property_options name="TYPE_C_TILESa">
+            
+            <option>./zomcrush/TileZombieFootball.png</option>
+            <option>./zomcrush/TileZombieScreenDoor.png</option>
+            <option>./zomcrush/TileZombieImp.png</option>
+            <option>./zomcrush/TileZombieBobsledTeam.png</option>
+            <option>./zomcrush/TileZombieConehead.png</option>
+            <option>./zomcrush/TileZombieDancing.png</option>
+        </property_options>
+        <!-- THERE WILL BE FOUR OF EACH OF TEHSE AND
+        THESE CAN ONLY MATCH WITH THEMSELVES -->
+      
+    </property_options_list>
+</properties>
